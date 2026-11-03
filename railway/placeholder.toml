@@ -1,0 +1,5 @@
+# Used only while no provider key is set: the gateway refuses to start without a provider,
+# so this one stands in (and answers 502 "could not be reached") until you add a key.
+[providers.add-a-provider-key]
+formats  = ["openai-chat"]
+base_url = "http://127.0.0.1:9/v1"
